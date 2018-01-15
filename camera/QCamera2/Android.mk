@@ -84,6 +84,8 @@ LOCAL_C_INCLUDES := \
         hardware/libhardware/include/hardware \
         $(call project-path-for,qcom-media)/libstagefrighthw \
         $(call project-path-for,qcom-media)/mm-core/inc \
+        frameworks/native/include/media/hardware \
+        frameworks/native/include/media/openmax \
         system/core/include/cutils \
         system/core/include/system \
         system/media/camera/include/system
