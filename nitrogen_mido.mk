@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
+$(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common NitrogenOS stuff.
 $(call inherit-product, vendor/nitrogen/products/common.mk)
@@ -23,8 +24,12 @@ PRODUCT_NAME := nitrogen_mido
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 
+TARGET_VENDOR_PRODUCT_NAME := mido
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/V9.0.3.0.NCFMIEI:user/release-keys" \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.0.3.0.NCFMIEI release-keys"
+    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V8.5.4.0.NCFMIED release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V8.5.4.0.NCFMIED:user/release-keys"
+
