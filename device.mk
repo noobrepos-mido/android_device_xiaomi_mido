@@ -53,3 +53,7 @@ PRODUCT_PACKAGES += \
 #Music Player
 PRODUCT_PACKAGES += \
   RetroMusic
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.xiaomi_mido
