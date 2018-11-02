@@ -53,3 +53,8 @@ PRODUCT_PACKAGES += \
 #Music Player
 PRODUCT_PACKAGES += \
   RetroMusic
+
+
+#Browser
+PRODUCT_PACKAGES += \
+  Via
