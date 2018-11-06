@@ -1,2 +1,1 @@
-
-add_lunch_combo aoscp_mido-userdebug
+add_lunch_combo devilian_mido-userdebug
