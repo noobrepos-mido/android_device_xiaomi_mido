@@ -1,10 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 
-#RetroMusic
+#Musicolet
 include $(CLEAR_VARS)
-LOCAL_MODULE := RetroMusic
+LOCAL_MODULE := Musicolet
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := common/app/RetroMusic.apk
+LOCAL_SRC_FILES := common/app/Musicolet.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
