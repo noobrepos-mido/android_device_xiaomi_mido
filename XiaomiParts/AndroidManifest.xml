@@ -47,18 +47,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+		<category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="com.android.settings.dismiss"
-                android:value="9,13,30" />
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/xiaomi_parts_settings_summary" />
         </activity>
 
         <activity

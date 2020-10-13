@@ -36,11 +36,14 @@ TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
+OCTAVI_MAINTAINER :=  Satyam Sharma
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys"
+    PRIVATE_BUILD_DESC="sunfish-user 11 RP1A.200720.011 6746289 release-keys" \
+    PRODUCT_NAME="mido"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-#BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RP1A.200720.011/6746289:user/release-keys"
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT) \
+    ro.system.build.fingerprint=$(BUILD_FINGERPRINT) \
