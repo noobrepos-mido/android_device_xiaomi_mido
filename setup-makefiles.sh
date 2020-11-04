@@ -30,7 +30,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 REVENGEOS_ROOT="${MY_DIR}/../../.."
 
-HELPER="$REVENGEOS_ROOT/vendor/revengeos/build/tools/extract_utils.sh"
+HELPER="$REVENGEOS_ROOT/vendor/aosp/build/tools/extract_utils.sh"
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
