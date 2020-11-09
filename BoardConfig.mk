@@ -201,12 +201,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 
 # RIL
 DISABLE_RILD_OEM_HOOK := true
-<<<<<<< HEAD
-
-# IPA
-USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
-=======
->>>>>>> edcfa55762b94934031d609e2245219c55547c4b
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-01

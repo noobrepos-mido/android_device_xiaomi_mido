@@ -26,6 +26,8 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 # Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 1080
 
+OCTAVI_BUILD_TYPE := Official
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := octavi_mido
