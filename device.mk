@@ -203,9 +203,9 @@ PRODUCT_BOARD_PLATFORM := msm8996
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # HALS
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+#SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+#SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+#SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
 
 # Healthd
 PRODUCT_PACKAGES += \
@@ -438,6 +438,8 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
 # Soong namespaces
+#PRODUCT_SOONG_NAMESPACES += \
+#    $(LOCAL_PATH) \
+#    hardware/qcom-caf/msm8996
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8996
